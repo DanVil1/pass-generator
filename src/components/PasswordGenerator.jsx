@@ -24,7 +24,6 @@ const PasswordGenerator = () => {
     }
     setPassword(generated);
 
-    // Check password strength
     const result = zxcvbn(generated);
     setStrength(result.score);
   };
