@@ -14,12 +14,12 @@ export function Button({
   ...props
 }: ButtonProps) {
   const baseStyles =
-    'font-bold py-3 px-4 rounded-lg transition-all flex items-center justify-center gap-2';
+    'font-semibold py-3 px-4 rounded-lg transition-all flex items-center justify-center gap-2';
 
   const variants = {
-    primary: 'bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white uppercase tracking-wide',
-    secondary: 'bg-zinc-800 hover:bg-zinc-700 text-white',
-    ghost: 'hover:bg-zinc-800 text-zinc-400 hover:text-white p-2',
+    primary: 'bg-white text-neutral-900 hover:bg-neutral-200 uppercase tracking-wide',
+    secondary: 'bg-neutral-800 border border-neutral-700 hover:border-neutral-600 text-white',
+    ghost: 'hover:bg-neutral-800 text-neutral-400 hover:text-white p-2',
   };
 
   const widthClass = fullWidth ? 'w-full' : '';

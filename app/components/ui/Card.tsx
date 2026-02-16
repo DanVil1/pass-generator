@@ -8,7 +8,7 @@ interface CardProps {
 export function Card({ children, className = '' }: CardProps) {
   return (
     <div
-      className={`w-full max-w-md bg-zinc-900 rounded-xl shadow-2xl overflow-hidden border border-zinc-800 ${className}`}
+      className={`w-full max-w-md bg-neutral-900 rounded-xl shadow-sm overflow-hidden border border-neutral-800 ${className}`}
     >
       {children}
     </div>
@@ -22,7 +22,7 @@ interface CardHeaderProps {
 
 export function CardHeader({ children, className = '' }: CardHeaderProps) {
   return (
-    <div className={`p-6 bg-zinc-900 border-b border-zinc-800 ${className}`}>{children}</div>
+    <div className={`p-6 bg-neutral-900 border-b border-neutral-800 ${className}`}>{children}</div>
   );
 }
 

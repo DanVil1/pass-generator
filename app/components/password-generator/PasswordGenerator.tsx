@@ -25,7 +25,7 @@ export function PasswordGenerator() {
   return (
     <Card>
       <CardHeader>
-        <h1 className="text-2xl font-bold text-center text-cyan-400">Password Generator</h1>
+        <h1 className="text-2xl font-bold text-center text-white">Sigil</h1>
       </CardHeader>
 
       <CardContent>

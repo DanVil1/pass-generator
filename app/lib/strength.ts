@@ -20,8 +20,8 @@ export function getStrengthInfo(score: StrengthScore): StrengthInfo {
       return {
         score,
         label: 'Weak',
-        color: 'bg-pink-500',
-        textColor: 'text-pink-500',
+        color: 'bg-red-500',
+        textColor: 'text-red-500',
       };
     case 2:
     case 3:
@@ -35,15 +35,15 @@ export function getStrengthInfo(score: StrengthScore): StrengthInfo {
       return {
         score,
         label: 'Strong',
-        color: 'bg-emerald-500',
-        textColor: 'text-emerald-500',
+        color: 'bg-green-500',
+        textColor: 'text-green-500',
       };
     default:
       return {
         score: 0,
         label: 'Weak',
-        color: 'bg-zinc-600',
-        textColor: 'text-zinc-400',
+        color: 'bg-neutral-700/50',
+        textColor: 'text-neutral-400',
       };
   }
 }

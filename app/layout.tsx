@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Password Generator",
-  description: "A simple and secure password generator.",
+  title: "Sigil",
+  description: "Password Generator.",
 };
 
 export default function RootLayout({

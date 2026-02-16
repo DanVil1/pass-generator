@@ -22,7 +22,7 @@ export function StrengthIndicator({ score, showLabel = true }: StrengthIndicator
     <div className="space-y-2">
       {showLabel && (
         <div className="flex items-center justify-between text-sm">
-          <span className="text-zinc-400">Strength:</span>
+          <span className="text-neutral-500">Strength:</span>
           <div className="flex items-center gap-2">
             <span className={`font-semibold ${strengthInfo.textColor}`}>{strengthInfo.label}</span>
             <Icon size={16} className={strengthInfo.textColor} />
@@ -31,7 +31,7 @@ export function StrengthIndicator({ score, showLabel = true }: StrengthIndicator
       )}
 
       {/* Progress Bar */}
-      <div className="w-full bg-zinc-800 h-2 rounded-full overflow-hidden">
+      <div className="w-full bg-neutral-800 h-1.5 rounded-full overflow-hidden">
         <div
           className={`h-full transition-all duration-300 ${strengthInfo.color}`}
           style={{ width: `${percentage}%` }}
